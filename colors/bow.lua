@@ -10,7 +10,6 @@ local function hi(group, fg, bg, attr)
   vim.cmd(cmd)
 end
 
--- Palette
 local fg = "#212529"
 local bg = "#f8f9fa"
 local soft = "#495057"
@@ -39,15 +38,3 @@ hi("Identifier", fg)
 hi("Type", soft)
 hi("PreProc", mid)
 hi("Todo", fg, light)
-
--- Diff
-hi("DiffAdd", nil, "#d3f9d8")
-hi("DiffChange", nil, "#fff3bf")
-hi("DiffDelete", nil, "#ffa8a8")
-hi("DiffText", nil, "#ffe066")
-
--- Diagnostics
-hi("DiagnosticError", "#c92a2a")
-hi("DiagnosticWarn", "#e67700")
-hi("DiagnosticInfo", "#1971c2")
-hi("DiagnosticHint", "#5c940d")
